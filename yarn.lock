@@ -19294,6 +19294,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ignore-walk@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "ignore-walk@npm:6.0.0"
+  dependencies:
+    minimatch: ^5.0.1
+  checksum: 7e15c7b582666c8f4e7954a2e0ec97a6fe8a1aa2ff60c7f10f171ad5b797ab73b36af7d82e7e6f80025d410a310576c37bf4430cba3b6e38f4a14867a5f5bc94
+  languageName: node
+  linkType: hard
+
 "ignore@npm:^4.0.3":
   version: 4.0.6
   resolution: "ignore@npm:4.0.6"
@@ -23892,7 +23901,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-packlist@npm:5.1.3, npm-packlist@npm:^5.1.0, npm-packlist@npm:^5.1.1":
+"npm-packlist@npm:7.0.2":
+  version: 7.0.2
+  resolution: "npm-packlist@npm:7.0.2"
+  dependencies:
+    ignore-walk: ^6.0.0
+  checksum: 2b266ad02d116ccdb4e033428ba51e5f2dfe65fa5597e315749efa5102c6bac349221cfc6b9897973a18fb6d603e7cd6ac2df7d436307a3e4e01dd77f5e280b9
+  languageName: node
+  linkType: hard
+
+"npm-packlist@npm:^5.1.0, npm-packlist@npm:^5.1.1":
   version: 5.1.3
   resolution: "npm-packlist@npm:5.1.3"
   dependencies:
@@ -27655,7 +27673,7 @@ __metadata:
     ncp: 2.0.0
     node-notifier: 10.0.1
     nodemon: 2.0.20
-    npm-packlist: 5.1.3
+    npm-packlist: 7.0.2
     nx: 15.0.13
     octokit: 2.0.8
     ora: 5.4.1
